@@ -16,7 +16,7 @@ class MyDrawer extends StatelessWidget {
   Widget build(BuildContext context) {
     return Drawer(
       backgroundColor: Theme.of(context).colorScheme.surface,
-      child: SafeArea(
+      child: const SafeArea(
         child: Column(
           children: [
           // app logo
